@@ -1,1 +1,21 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #f5f5f5;
+  --color-fg: #1a1a1a;
+  --color-border: #e2e8f0;
+  --color-card: #ffffff;
+  --color-primary: #2563eb;
+  --color-secondary: #64748b;
+}
+
+[data-theme='dark'] {
+  --color-bg: #1a1a1a;
+  --color-fg: #f5f5f5;
+  --color-border: #374151;
+  --color-card: #111827;
+  --color-primary: #60a5fa;
+  --color-secondary: #9ca3af;
+}

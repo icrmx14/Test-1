@@ -1,8 +1,9 @@
 fastapi>=0.115.0
-uvicorn>=0.30.0
+uvicorn[standard]>=0.30.0
+sqlalchemy>=2.0.28
 pydantic>=2.10.0
 pydantic-settings>=2.4.0
-sqlalchemy==2.0.28
-psycopg2-binary==2.9.9
-scikit-learn==1.4.1.post1
-statsmodels==0.14.1
+psycopg2-binary>=2.9.9
+numpy
+scikit-learn
+statsmodels
